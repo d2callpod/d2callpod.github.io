@@ -1,8 +1,7 @@
-function slackResponse () {
-$reply = "Whatever you want";
-    $data = array(
-        "response_type"=>"in_channel",
-        "text"=>$repy,
-        );
-    echo json_encode($data);
+var reply = "hello there how are you?";
+var response = {
+    "response_type":"in_channel",
+    "text":reply
+};
+document.write(JSON.stringify(response));
 }
