@@ -1,4 +1,3 @@
-<script>
 $reply = "Whatever you want";
     $data = array(
         "response_type"=>"in_channel",
@@ -6,4 +5,3 @@ $reply = "Whatever you want";
         );
     header('Content-Type: application/json');
     echo json_encode($data);
-</script>
