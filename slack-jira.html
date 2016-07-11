@@ -1,1 +1,14 @@
-<script src="slack-jira.js" />
+<html>
+	<head>
+		<script type="text/javascript">
+window.onload = function slackResponse () {
+var reply = "hello there how are you?";
+var response = {
+    "response_type":"in_channel",
+    "text":reply
+};
+document.write(JSON.stringify(response));
+}
+		</script>
+	</head>
+</html>
